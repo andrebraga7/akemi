@@ -11,3 +11,16 @@ body {
     font-weight: 300;
     color: #1a1a1a;
 }
+
+/* header and logo */
+
+header {
+    background-color: #011d3b;
+    height: 100px;
+}
+
+#logo {
+    float: left;
+    height: 50%;
+    margin: 25px 50px;
+}
