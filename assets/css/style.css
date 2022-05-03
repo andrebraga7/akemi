@@ -236,3 +236,16 @@ header {
     padding: 150px 150px;
     box-sizing: border-box;
 }
+
+/* call to action with a button */
+
+#call-to-action {
+    clear: both;
+    text-align: center;
+    height: 300px;
+    padding: 50px;
+}
+
+#call-to-action h2 {
+    padding: 10px;
+}
