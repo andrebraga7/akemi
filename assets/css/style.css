@@ -22,5 +22,38 @@ header {
 #logo {
     float: left;
     height: 50%;
-    margin: 25px 50px;
+    margin: 25px 10%;
+}
+
+/* header navigation links */
+
+#menu {
+    float: right;
+    margin-right: 10%;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu>li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    padding-bottom: 36px;
+}
+
+#menu a:hover {
+    color: #4ab74c;
+    border-bottom: 5px solid #ffffff;
+}
+
+.active {
+    border-bottom: 5px solid #ffffff;
 }
