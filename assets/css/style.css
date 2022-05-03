@@ -14,7 +14,7 @@ body {
 
 h2 {
     font-size: 200%;
-    padding: 70px;
+    padding: 90px;
 }
 
 /* header and logo */
@@ -159,7 +159,7 @@ header {
     width: auto;
     padding: 120px 0;
     box-sizing: border-box;
-    background-color: rgba(1, 29, 59, 0.6);
+    background-color: rgba(1, 29, 59, 0.8);
 }
 
 .solutions-container {
@@ -170,7 +170,7 @@ header {
     height: 250px;
     padding: 0px 3em 20px;
     box-sizing: border-box;
-    background-color: #011d3b;
+    background-color: #4ab74c;
 }
 
 .solutions-container h2 {
@@ -183,4 +183,51 @@ header {
 #help {
     clear: both;
     text-align: center;
+}
+
+#help h3 {
+    font-size: 150%;
+}
+
+#solar-commercial {
+    float: left;
+    width: 50%;
+    height: 500px;
+    /* image by: https://unsplash.com/photos/aQOzmgcT6sI */
+    background: url(../images/solar-commercial1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#solar-farm {
+    float: right;
+    width: 50%;
+    height: 500px;
+    /* image by: https://pixabay.com/photos/solar-farm-solar-energy-4443338/ */
+    background: url(../images/solar-farm1.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#solar-residential {
+    float: left;
+    width: 50%;
+    height: 500px;
+    /* image by: https://www.pexels.com/photo/solar-panels-on-tiled-roofs-of-a-house-8457868/ */
+    background: url(../images/solar-residential.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.help-text-right {
+    float: right;
+    width: 50%;
+    height: 500px;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.help-text-left {
+    float: left;
+    width: 50%;
+    height: 500px;
+    padding-top: 100px;
+    box-sizing: border-box;
 }
