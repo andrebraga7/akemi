@@ -122,7 +122,6 @@ header {
 #solutions {
     text-align: center;
     width: 100%;
-    margin: auto;
     overflow: hidden;
 }
 
@@ -130,6 +129,7 @@ header {
     float: left;
     width: 33.3%;
     height: 300px;
+    /* image by: https://www.pexels.com/photo/solar-panels-7102661/ */
     background: url(../images/solar.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -138,6 +138,7 @@ header {
     float: left;
     width: 33.3%;
     height: 300px;
+    /* image by: https://www.pexels.com/photo/photo-of-wind-turbines-under-cloudy-sky-3619870/ */
     background: url(../images/wind.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -146,6 +147,7 @@ header {
     float: left;
     width: 33.3%;
     height: 300px;
+    /* image by: https://unsplash.com/photos/FUeb2npsblQ */
     background: url(../images/hydro.jpg) no-repeat center center;
     background-size: cover;
 }
@@ -174,4 +176,11 @@ header {
 .solutions-container h2 {
     text-align: center;
     padding: 30px 0px;
+}
+
+/* how we help section */
+
+#help {
+    clear: both;
+    text-align: center;
 }
