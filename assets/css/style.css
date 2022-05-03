@@ -65,6 +65,7 @@ header {
 #hero-image {
     height: 600px;
     width: 100%;
+    /* image by https://www.pexels.com/photo/blue-solar-panel-board-356036/ */
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
 }
