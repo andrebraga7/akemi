@@ -12,6 +12,11 @@ body {
     color: #1a1a1a;
 }
 
+h2 {
+    font-size: 200%;
+    padding: 70px;
+}
+
 /* header and logo */
 
 header {
@@ -67,13 +72,14 @@ header {
     width: 100%;
     /* image by https://www.pexels.com/photo/blue-solar-panel-board-356036/ */
     background: url(../images/hero-image.jpg) no-repeat center center;
+    background-color: #011d3b;
     background-size: cover;
 }
 
 #cover-text {
     color: #ffffff;
     text-align: center;
-    width: 350px;
+    width: 500px;
     padding: 20px 20px;
     background-color: rgba(1, 29, 59, 0.9);
 
@@ -95,8 +101,7 @@ header {
 }
 
 #book-a-call h3 {
-    font-size: 130%;
-    width: 50%;
+    width: 150px;
     margin: 20px auto 0;
     padding: 10px;
     box-shadow: 2px 2px #ffffff;
@@ -110,4 +115,59 @@ header {
 
 #book-a-call h3:active {
     color: #4ab74c;
+}
+
+/* our solutions */
+
+#solutions {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#solutions-solar {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    background: url(../images/solar.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#solutions-wind {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    background: url(../images/wind.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#solutions-hydro {
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    background: url(../images/hydro.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#solutions div div {
+    color: #ffffff;
+    font-size: 200%;
+    height: 100%;
+    width: auto;
+    padding: 120px 0;
+    box-sizing: border-box;
+    background-color: rgba(1, 29, 59, 0.6);
+}
+
+.solutions-container {
+    color: #ffffff;
+    font-size: 120%;
+    text-align: left;
+    float: left;
+    width: 33.3%;
+    height: 300px;
+    padding: 40px 3em;
+    box-sizing: border-box;
+    background-color: #011d3b;
 }
