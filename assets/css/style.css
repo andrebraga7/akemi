@@ -56,13 +56,57 @@ header {
 
 /* hero image and cover text */
 
-/* #hero-outer {
-    
-} */
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
 
 #hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
     background-size: cover;
+}
+
+#cover-text {
+    color: #ffffff;
+    text-align: center;
+    width: 350px;
+    padding: 20px 20px;
+    background-color: rgba(1, 29, 59, 0.9);
+
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+}
+
+#cover-text h1 {
+    font-size: 200%;
+    color: #4ab74c;
+    padding-bottom: 10px;
+}
+
+/* book-a-call button */
+#book-a-call {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#book-a-call h3 {
+    font-size: 130%;
+    width: 50%;
+    margin: 20px auto 0;
+    padding: 10px;
+    box-shadow: 2px 2px #ffffff;
+    background-color: #4ab74c;
+}
+
+#book-a-call h3:hover {
+    box-shadow: 2px 2px #4ab74c;
+    background-color: #011d3b;
+}
+
+#book-a-call h3:active {
+    color: #4ab74c;
 }
