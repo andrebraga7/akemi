@@ -95,25 +95,28 @@ header {
 }
 
 /* book-a-call button */
-#book-a-call {
-    color: #ffffff;
-    text-decoration: none;
-}
 
-#book-a-call h3 {
-    width: 150px;
+.book-a-call {
+    width: 170px;
     margin: 20px auto 0;
     padding: 10px;
     box-shadow: 2px 2px #ffffff;
     background-color: #4ab74c;
 }
 
-#book-a-call h3:hover {
+.book-a-call a {
+    color: #ffffff;
+    font-size: 140%;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.book-a-call:hover {
     box-shadow: 2px 2px #4ab74c;
     background-color: #011d3b;
 }
 
-#book-a-call h3:active {
+.book-a-call:active {
     color: #4ab74c;
 }
 
@@ -401,7 +404,7 @@ footer span {
     padding-top: 230px;
 }
 
-#contact-cover h1, p{
+#contact-cover h1 {
     text-align: center;
     color: #ffffff;
     width: 600px;
@@ -409,4 +412,55 @@ footer span {
     padding: 20px 20px;
     background-color: rgba(1, 29, 59, 0.9);
     box-shadow: #4ab74c 3px 3px;
+}
+
+/* contact form */
+
+#form-background {
+    height: 100%;
+    background: url(../images/contact-bg.jpg); /* image by: https://pixabay.com/photos/wind-windmill-turbine-wind-turbine-3043896/ */
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form {
+    width: 50%;
+    margin: 150px auto;
+    padding: 50px 0;
+    background-color: rgba(247, 247, 247, 0.6);
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.form h3 {
+    font-size: 150%;
+    padding-bottom: 40px;
+}
+
+.text-input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #011d3b;
+    border-radius: 3px;
+}
+
+.text-input:hover {
+    border-color: #4ab74c;
+}
+
+input[type="submit"] {
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #4ab74c;
+    display: block;
+}
+
+input[type="reset"] {
+    color: #ffffff;
+    font-size: 120%;
+    font-weight: 700;
+    display: block;
 }
