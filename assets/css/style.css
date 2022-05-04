@@ -330,8 +330,7 @@ footer span {
 #about-cover {
     height: 500px;
     width: 100%;
-    /* image by: https://www.pexels.com/photo/solar-panels-on-roof-137602/ */
-    background: url(../images/header-about.jpg) no-repeat center center;
+    background: url(../images/header-about.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-panels-on-roof-137602/ */
     background-size: cover;
 }
 
@@ -387,4 +386,27 @@ footer span {
 .projects-container p {
     text-align: justify;
     padding: 0 4vw 3vw;
+}
+
+/* contact page cover image and title */
+
+#contact-cover {
+    height: 500px;
+    width: 100%;
+    background: url(../images/header-contact.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-technician-inspecting-solar-panel-4254171/ */
+    background-size: cover;
+}
+
+#contact-cover-text {
+    padding-top: 230px;
+}
+
+#contact-cover h1, p{
+    text-align: center;
+    color: #ffffff;
+    width: 600px;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: rgba(1, 29, 59, 0.9);
+    box-shadow: #4ab74c 3px 3px;
 }
