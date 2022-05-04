@@ -9,6 +9,7 @@
 body {
     font-family: 'Inter', sans-serif;
     font-weight: 300;
+    text-align: center;
     color: #1a1a1a;
 }
 
@@ -271,6 +272,10 @@ footer li {
     height: 100px;
 }
 
+#logo-footer a:hover {
+    border-bottom: none;
+}
+
 #contact-footer {
     float: right;
     width: 33%;
@@ -290,6 +295,11 @@ footer li {
 footer a {
     color: inherit;
     text-decoration: none;
+}
+
+footer a:hover {
+    color: #4ab74c;
+    border-bottom: 3px solid #ffffff;
 }
 
 footer hr {
@@ -347,6 +357,7 @@ footer span {
 }
 
 #about h2 {
+    text-align: left;
     padding-bottom: 20px;
 }
 
@@ -354,4 +365,26 @@ footer span {
     text-align: justify;
     width: 60%;
     margin: auto;
+}
+
+/* our projects section */
+
+.projects-container {
+    float: left;
+    width: 33.3%;
+    height: 600px;
+    background-color: #f7f7f7;
+}
+
+.projects-container img {
+    width: 100%;
+}
+
+.projects-container h3 {
+    padding: 30px;
+}
+
+.projects-container p {
+    text-align: justify;
+    padding: 0 4vw 3vw;
 }
