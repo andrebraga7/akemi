@@ -14,7 +14,7 @@ body {
 
 h2 {
     font-size: 200%;
-    padding: 90px;
+    padding: 90px 0;
 }
 
 /* header and logo */
@@ -179,7 +179,7 @@ header {
 }
 
 #help p {
-    text-align: left;
+    text-align: justify;
 }
 
 #solar-commercial {
@@ -337,4 +337,21 @@ footer span {
     padding: 20px 20px;
     background-color: rgba(1, 29, 59, 0.9);
     box-shadow: #4ab74c 3px 3px;
+}
+
+/* about us section */
+
+#about {
+    padding-bottom: 90px;
+    background-color: #f7f7f7;
+}
+
+#about h2 {
+    padding-bottom: 20px;
+}
+
+#about-text {
+    text-align: justify;
+    width: 60%;
+    margin: auto;
 }
