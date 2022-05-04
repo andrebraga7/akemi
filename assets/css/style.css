@@ -73,7 +73,6 @@ header {
     width: 100%;
     /* image by https://www.pexels.com/photo/blue-solar-panel-board-356036/ */
     background: url(../images/hero-image.jpg) no-repeat center center;
-    background-color: #011d3b;
     background-size: cover;
 }
 
@@ -83,7 +82,6 @@ header {
     width: 500px;
     padding: 20px 20px;
     background-color: rgba(1, 29, 59, 0.9);
-
     position: absolute;
     bottom: 20%;
     right: 10%;
@@ -227,7 +225,6 @@ header {
     height: 400px;
     padding: 150px 150px;
     background-color: #f7f7f7;
-
     box-sizing: border-box;
 }
 
@@ -316,4 +313,28 @@ footer span {
     display: inline;
     font-size: 200%;
     margin: 0 20px;
+}
+
+/* about us cover image and title */
+
+#about-cover {
+    height: 500px;
+    width: 100%;
+    /* image by: https://www.pexels.com/photo/solar-panels-on-roof-137602/ */
+    background: url(../images/header-about.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+#about-cover-text {
+    padding-top: 230px;
+}
+
+#about-cover-text h1{
+    text-align: center;
+    color: #ffffff;
+    width: 600px;
+    margin: auto;
+    padding: 20px 20px;
+    background-color: rgba(1, 29, 59, 0.9);
+    box-shadow: #4ab74c 3px 3px;
 }
