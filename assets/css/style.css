@@ -45,7 +45,7 @@ header {
 #menu>li {
     display: inline;
     list-style-type: none;
-    margin-right: 30px;
+    padding: 0 15px;
 }
 
 #menu a {
@@ -72,8 +72,7 @@ header {
     display: block;
     height: 600px;
     width: 100%;
-    /* image by https://www.pexels.com/photo/blue-solar-panel-board-356036/ */
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.jpg) no-repeat center center; /* image by https://www.pexels.com/photo/blue-solar-panel-board-356036/ */
     background-size: cover;
 }
 
@@ -86,6 +85,7 @@ header {
     position: absolute;
     bottom: 20%;
     right: 10%;
+    box-sizing: border-box;
 }
 
 #cover-text h1 {
@@ -138,8 +138,7 @@ header {
     float: left;
     width: 33.3%;
     height: 400px;
-    /* image by: https://www.pexels.com/photo/solar-panels-7102661/ */
-    background: url(../images/solar.jpg) no-repeat center center;
+    background: url(../images/solar.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-panels-7102661/ */
     background-size: cover;
 }
 
@@ -147,8 +146,7 @@ header {
     float: left;
     width: 33.3%;
     height: 400px;
-    /* image by: https://www.pexels.com/photo/photo-of-wind-turbines-under-cloudy-sky-3619870/ */
-    background: url(../images/wind.jpg) no-repeat center center;
+    background: url(../images/wind.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/photo-of-wind-turbines-under-cloudy-sky-3619870/ */
     background-size: cover;
 }
 
@@ -156,8 +154,7 @@ header {
     float: left;
     width: 33.3%;
     height: 400px;
-    /* image by: https://unsplash.com/photos/FUeb2npsblQ */
-    background: url(../images/hydro.jpg) no-repeat center center;
+    background: url(../images/hydro.jpg) no-repeat center center; /* image by: https://unsplash.com/photos/FUeb2npsblQ */
     background-size: cover;
 }
 
@@ -165,7 +162,7 @@ header {
     color: #ffffff;
     height: 100%;
     width: auto;
-    padding: 150px 4vw 0;
+    padding: 15vh 4vw 0;
     box-sizing: border-box;
     background-image: linear-gradient(rgba(1, 29, 59, 0.3), rgba(1, 29, 59, 0.9), #011d3b);
 }
@@ -190,8 +187,7 @@ header {
     float: left;
     width: 50%;
     height: 400px;
-    /* image by: https://unsplash.com/photos/aQOzmgcT6sI */
-    background: url(../images/solar-commercial1.jpg) no-repeat center center;
+    background: url(../images/solar-commercial1.jpg) no-repeat center center; /* image by: https://unsplash.com/photos/aQOzmgcT6sI */
     background-size: cover;
 }
 
@@ -199,8 +195,7 @@ header {
     float: right;
     width: 50%;
     height: 400px;
-    /* image by: https://pixabay.com/photos/solar-farm-solar-energy-4443338/ */
-    background: url(../images/solar-farm1.jpg) no-repeat center center;
+    background: url(../images/solar-farm1.jpg) no-repeat center center; /* image by: https://pixabay.com/photos/solar-farm-solar-energy-4443338/ */
     background-size: cover;
 }
 
@@ -208,8 +203,7 @@ header {
     float: left;
     width: 50%;
     height: 400px;
-    /* image by: https://www.pexels.com/photo/solar-panels-on-tiled-roofs-of-a-house-8457868/ */
-    background: url(../images/solar-residential.jpg) no-repeat center center;
+    background: url(../images/solar-residential.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-panels-on-tiled-roofs-of-a-house-8457868/ */
     background-size: cover;
 }
 
@@ -217,9 +211,8 @@ header {
     float: right;
     width: 50%;
     height: 400px;
-    padding: 150px 150px;
+    padding: 150px 10vw;
     background-color: #f7f7f7;
-
     box-sizing: border-box;
 }
 
@@ -227,7 +220,7 @@ header {
     float: left;
     width: 50%;
     height: 400px;
-    padding: 150px 150px;
+    padding: 150px 10vw;
     background-color: #f7f7f7;
     box-sizing: border-box;
 }
@@ -266,8 +259,8 @@ footer li {
 
 #logo-footer {
     float: left;
-    width: 33%;
-    padding: 100px 0px 50px 10%;
+    width: 35%;
+    padding: 100px 0 5% 10%;
     box-sizing: border-box;
 }
 
@@ -279,19 +272,20 @@ footer li {
     border-bottom: none;
 }
 
-#contact-footer {
-    float: right;
-    width: 33%;
-    line-height: 1.5em;
-    padding: 100px 0px 50px;
+#menu-footer {
+    float: left;
+    width: 20%;
+    margin: auto;
+    padding: 100px 0 5%;
+    line-height: 2em;
     box-sizing: border-box;
 }
 
-#menu-footer {
-    width: 33%;
-    margin: 0 auto;
-    padding: 100px 0px 50px 150px;
-    line-height: 2em;
+#contact-footer {
+    float: right;
+    width: 45%;
+    line-height: 1.5em;
+    padding: 100px 10% 5% 0;
     box-sizing: border-box;
 }
 
@@ -423,7 +417,7 @@ footer span {
 
 .form {
     text-align: left;
-    width: 40%;
+    width: 50%;
     margin: 150px auto;
     padding: 50px 20px;
     border-radius: 5px;
@@ -481,4 +475,222 @@ input[type="reset"] {
 
 input[type="reset"]:hover {
     background-color: #dedede;
+}
+
+/* media queries */
+
+/* large to medium screen sizes from 1000px wide and down */
+
+@media screen and (max-width: 1000px){
+    
+    #cover-text {
+        width: 80%;
+    }
+
+    .solutions-container {
+        padding: 13vh 1vw 0;
+    }
+
+    .help-text-right {
+        padding: 100px 5vw;
+    }
+    
+    .help-text-left {
+        padding: 100px 5vw;
+    }
+
+    #logo-footer {
+        width: 30%;
+    }
+
+    #logo-footer img {
+        height: 80px;
+    }
+
+    #contact-footer {
+        width: 50%;
+        padding: 100px 0 5%;
+    }    
+
+    #menu-footer {
+        width: 20%;
+        padding: 100px 0 5% 5%;
+    }
+
+    #about-text {
+        width: 70%;
+    }
+
+    .projects-container {
+        height: 500px;
+    }
+
+    .projects-container p {
+        padding: 0 2vw;
+    }
+
+    .form {
+        width: 60%;
+    }
+    
+}
+
+/* small screen sizes from 800px wide and down */
+
+@media screen and (max-width: 800px) {
+
+    header {
+        height: 100%;
+    }
+    
+    #logo {
+        float: none;
+        height: 50px;
+        margin: 40px auto 0;
+    }
+
+    #menu {
+        float: none;
+        margin: 0 auto;
+    }
+    
+    #hero-outer {
+        height: 500px;
+    }
+    
+    #hero-image {
+        height: 500px;
+    }
+
+    #solutions-solar {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #solutions-wind {
+        width: 100%;
+        height: 300px;
+    }
+    
+    #solutions-hydro {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .solutions-container {
+        padding: 10vh 4vw 0;
+    }
+
+    #solar-commercial {
+        width: 100%;
+        height: 300px;
+    }
+
+    #solar-farm {
+        width: 100%;
+        height: 300px;
+    }
+
+    #solar-residential {
+        width: 100%;
+        height: 300px;
+    }
+
+    .help-text-right {
+        width: 100%;
+        height: 300px;
+        padding: 10vh 10vw;
+    }
+
+    .help-text-left {
+        width: 100%;
+        height: 300px;
+        padding: 10vh 10vw;
+    }
+
+    #call-to-action {
+        height: 100%;
+        padding: 10vh 5vw;
+    }
+    
+    #call-to-action h2 {
+        padding: 0;
+    }
+
+    footer {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    #logo-footer {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 50px auto 0;
+        padding: 0;
+    }
+
+    #logo-footer img {
+        height: 100px;
+    }
+
+    #menu-footer {
+        float: none;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 25px auto 0;
+    }
+
+    #menu-footer>li {
+        display: inline;
+        padding: 0 20px;
+    }
+
+    #contact-footer {
+        float: none;
+        text-align: left;
+        width: 80%;
+        padding: 0;
+        margin: 50px auto;
+    }
+
+    #social-footer {
+        float: none;
+        text-align: center;
+        padding: 20px 0 40px;
+    }
+    
+    #about-cover-text h1{
+        width: 80%;
+    }
+
+    .projects-container {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .projects-container p {
+        padding: 0 4vw 10vh;
+    }
+
+    #contact-cover h1 {
+        width: 80%;
+    }
+
+    .form {
+        width: 95%;
+    }
+
+    input[type="submit"] {
+        width: 150px;
+        margin-right: 10px;
+    }
+
+    input[type="reset"] {
+        width: 150px;
+        margin-right: 0;
+    }
+
 }
