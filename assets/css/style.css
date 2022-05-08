@@ -311,14 +311,14 @@ footer span {
     margin: 0 20px;
 }
 
-/* about us cover image and title */
+/* cover image and title */
 
-#about-cover {
+.cover {
     height: 500px;
     position: relative;
 }
 
-#about-cover-img {
+.cover-img {
     height: 500px;
     width: 100%;
     object-fit: cover;
@@ -332,7 +332,11 @@ footer span {
     padding-top: 230px;
 }
 
-#about-cover-text h1{
+#contact-cover-text {
+    padding-top: 230px;
+}
+
+.cover-text h1{
     text-align: center;
     color: #ffffff;
     width: 600px;
@@ -344,17 +348,17 @@ footer span {
 
 /* about us section */
 
-#about {
+#about-section {
     padding-bottom: 90px;
     background-color: #f7f7f7;
 }
 
-#about h2 {
+#about-section h2 {
     text-align: left;
     padding-bottom: 20px;
 }
 
-#about-text {
+#about-section-text {
     text-align: justify;
     width: 60%;
     margin: auto;
@@ -382,30 +386,7 @@ footer span {
     padding: 0 4vw 3vw;
 }
 
-/* contact page cover image and title */
-
-#contact-cover {
-    height: 500px;
-    width: 100%;
-    background: url(../images/header-contact.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-technician-inspecting-solar-panel-4254171/ */
-    background-size: cover;
-}
-
-#contact-cover-text {
-    padding-top: 230px;
-}
-
-#contact-cover h1 {
-    text-align: center;
-    color: #ffffff;
-    width: 600px;
-    margin: auto;
-    padding: 20px 20px;
-    background-color: rgba(1, 29, 59, 0.9);
-    box-shadow: #4ab74c 3px 3px;
-}
-
-/* contact form */
+/* contact page form */
 
 #form-section {
     background-color: #dedede;
@@ -514,7 +495,7 @@ input[type="reset"]:hover {
         padding: 100px 0 5% 5%;
     }
 
-    #about-text {
+    #about-section-text {
         width: 70%;
     }
 
@@ -645,13 +626,14 @@ input[type="reset"]:hover {
         padding: 20px 0 40px;
     }
     
+    /* cover image and title @media queries for small screens */
+    .cover-text h1{
+        width: 80%;
+    }
+
     /* about page @media queries for small screens */
     #about-cover-text{
         padding-top: 150px;
-    }
-
-    #about-cover-text h1{
-        width: 80%;
     }
 
     .projects-container {
@@ -663,11 +645,7 @@ input[type="reset"]:hover {
         padding: 0 4vw 10vh;
     }
 
-    /* contact page @media queries page small screens */
-    #contact-cover h1 {
-        width: 80%;
-    }
-
+    /* contact form @media queries for small screens */
     .form {
         width: 95%;
     }
