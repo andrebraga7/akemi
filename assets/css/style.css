@@ -328,11 +328,7 @@ footer span {
     z-index: -1;
 }
 
-#about-cover-text {
-    padding-top: 230px;
-}
-
-#contact-cover-text {
+.cover-text {
     padding-top: 230px;
 }
 
@@ -632,7 +628,7 @@ input[type="reset"]:hover {
     }
 
     /* about page @media queries for small screens */
-    #about-cover-text{
+    #about-cover>.cover-text{
         padding-top: 150px;
     }
 
