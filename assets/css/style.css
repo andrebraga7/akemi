@@ -315,9 +315,17 @@ footer span {
 
 #about-cover {
     height: 500px;
+    position: relative;
+}
+
+#about-cover-img {
+    height: 500px;
     width: 100%;
-    background: url(../images/header-about.jpg) no-repeat center center; /* image by: https://www.pexels.com/photo/solar-panels-on-roof-137602/ */
-    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
 }
 
 #about-cover-text {
@@ -638,10 +646,6 @@ input[type="reset"]:hover {
     }
     
     /* about page @media queries for small screens */
-    #about-cover {
-        background-position: right;
-    }
-
     #about-cover-text{
         padding-top: 150px;
     }
