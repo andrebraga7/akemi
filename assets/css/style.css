@@ -60,6 +60,11 @@ header {
     border-bottom: 5px solid #ffffff;
 }
 
+.active-page {
+    color: #4ab74c;
+    border-bottom: 5px solid #ffffff;
+}
+
 /* hero image and cover text */
 
 #hero-outer {
@@ -295,6 +300,11 @@ footer a {
 }
 
 footer a:hover {
+    color: #4ab74c;
+    border-bottom: 3px solid #ffffff;
+}
+
+.footer-active-page {
     color: #4ab74c;
     border-bottom: 3px solid #ffffff;
 }
