@@ -487,7 +487,7 @@ input[type="reset"]:hover {
     background-color: #dedede;
 }
 
-/* media queries */
+/* @media queries */
 
 /* large to medium screen sizes from 1000px wide and down */
 
@@ -627,6 +627,7 @@ input[type="reset"]:hover {
         padding: 0;
     }
 
+    /* footer @media queries for small screens */
     footer {
         height: 100%;
         width: 100%;
@@ -672,6 +673,15 @@ input[type="reset"]:hover {
         padding: 20px 0 40px;
     }
     
+    /* about page @media queries for small screens */
+    #about-cover {
+        background-position: right;
+    }
+
+    #about-cover-text{
+        padding-top: 150px;
+    }
+
     #about-cover-text h1{
         width: 80%;
     }
@@ -685,6 +695,7 @@ input[type="reset"]:hover {
         padding: 0 4vw 10vh;
     }
 
+    /* contact page @media queries page small screens */
     #contact-cover h1 {
         width: 80%;
     }
