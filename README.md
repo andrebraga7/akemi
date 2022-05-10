@@ -14,4 +14,15 @@ You can follow the project along by visiting the [Akemi website here](https://an
 # Table of content
 
 * [**User Experience UX**](#user-experience-ux)
-    * [Wireframes]()
+    * [Wireframes](#wireframes)
+
+
+# User Experience (UX)
+
+## Wireframes
+
+The wireframes for the Akemi website were created using [Balsamiq](https://balsamiq.com/). The mobile version of the site was created following the main full width wireframe and adding adjustments as needed to acomodate the smaler screens.
+
+![Wireframes](assets/readme-images/wireframes.png)
+
+[Back to table of content](#table-of-content)
