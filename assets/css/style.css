@@ -99,6 +99,11 @@ header {
     padding-bottom: 10px;
 }
 
+#cover-text h2{
+    font-size: 115%;
+    padding: 0;
+}
+
 /* book-a-call button */
 
 .book-a-call-button {
