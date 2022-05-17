@@ -38,9 +38,12 @@ You can follow the project along by visiting the [Akemi website here](https://an
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
 - [**Deployment**](#deployment)
-- **Credits**
-    - Content
-    - Media
+    - [To deploy the website](#to-deploy-the-website)
+    - [To fork the repository on GitHub](#to-fork-the-repository-on-github)
+    - [To create a local clone of the project](#to-create-a-local-clone-of-the-project)
+- [**Credits**](#credits)
+    - [Content](#content)
+    - [Media](#media)
 - **Acknowledgements**
 
 
@@ -189,10 +192,53 @@ The Akemi website is designed and laid out following the common sense website de
 # Deployment
 
 ## To deploy the website
-The website was deplyoed to GitHub pages. You can fallow the steps bellow to deploy a site:
-- 1
-- 2
-- 3
-- 4
+The website was deplyoed to GitHub pages. You can fallow the steps bellow to deploy a webpage:
+
+1. In the GitHub repository, click on the **Settings** tab;
+2. Select the **Pages** option on the left hand side;
+3. Under source, set the Branch to **main** and click on **Save**;
+4. Once the changes are saved, a link to the live website will appear on the top of the page. It may take a few minutes until the website is published.
+
+You can access the GitHub repository by clicking the following link: [https://github.com/andrebraga7/akemi](https://github.com/andrebraga7/akemi)
 
 ![Deployment](assets/readme-images/deployment.jpg)
+
+[Back to table of content](#table-of-content)
+
+## To fork the repository on GitHub
+You can create a copy of the repository by forking the GitHub account. This copy can be changed and edited without affecting the original repository. Follow the steps below to fork the repository:
+
+1. Log in to the GitHub account and locate the [repositoty](https://github.com/andrebraga7/akemi);
+2. On the top right hand side of the page, click the **Fork** button to create a copy of the original repository on your GitHub account.
+
+![Fork](assets/readme-images/fork.jpg)
+
+[Back to table of content](#table-of-content)
+
+## To create a local clone of the project
+To create a clone of the project from GitHub, folow the steps below:
+
+1. In the repository page, click on the **Code** tab;
+2. On the **Clone HTTPS** section, click the copy button to copy the repository URL;
+
+![Clone](assets/readme-images/clone.jpg)
+
+3. In your IDE of choice, open **Git Bash**;
+4. Change the current working directory to the location where you want the cloned directory to be made;
+5. Type **git clone** and then paste the URL copied from GitHub;
+6. Press **enter** to create the local clone.
+
+[Back to table of content](#table-of-content)
+
+# Credits
+
+## Content
+- The **Inter** font used is from [**Google Fonts**](https://fonts.google.com/specimen/Inter?query=inter) and was created by [**Rasmus Andersson**](https://fonts.google.com/?query=Rasmus+Andersson);
+- The icons used are from [**Font Awesome**](https://fontawesome.com/);
+- [**Balsamiq**](https://balsamiq.com/wireframes/) was used to create the wireframes.
+
+## Media
+- All the photos used came from royalty free stock from [**Pexels**](https://www.pexels.com), [**Pixabay**](https://pixabay.com) and [**Unsplash**](https://unsplash.com);
+- The link for each individual image can be found as a comment in the code.
+
+[Back to table of content](#table-of-content)
