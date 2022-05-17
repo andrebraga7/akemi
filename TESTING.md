@@ -18,7 +18,7 @@ Below are the HTML validator results for each of the pages:
 
     ![HTML validator results](assets/readme-images/html-validator.jpg)
 
-Bellow are the CSS validator results:
+Below are the CSS validator results:
 
 ![CSS validator results](assets/readme-images/css-validator.jpg)
 
@@ -26,7 +26,7 @@ Bellow are the CSS validator results:
 
 The responsive design test was carried out manually through [**Google Chrome DevTools**](https://developer.chrome.com/docs/devtools/) and [**Responsive Design Checker**](https://responsivedesignchecker.com/).
 
-|        | Soni Xperia Z2 | Samsung Galaxy S7 | Apple iPhone 7 | Apple iPad Mini | Apple iPad Pro| Display < 1024px | Display > 1024px |
+|        | Soni Xperia Z2 | Samsung Galaxy S7 | Apple iPhone 7 | Apple iPad Mini | Apple iPad Pro| Display <1024px | Display >1024px |
 |--------|:--------------:|:-----------------:|:--------------:|:---------------:|:-------------:|:----------------:|:----------------:|
 | Render | pass           | pass              | pass           | pass            | pass          | pass             | pass             |
 | Images | pass           | pass              | pass           | pass            | pass          | pass             | pass             |
@@ -48,7 +48,7 @@ The website was tested on a wide range of browsers and didn't present any visual
         Both errors were related to the same problem. This was easily fixed by removing the \<button> element, and styling the \<a> element as a button.
 
 - ## Unresolved
-    - The data from the form on the contact page doesn't push to anywhere. This is due to the limitations of this portfolio project. This can be easily fixed for a true live version of the website.
+    - The data from the form on the contact page doesn't push anywhere. This is due to the limitations of this portfolio project. However it can be easily fixed for a true live version of the website.
 
 # Aditional testing
 

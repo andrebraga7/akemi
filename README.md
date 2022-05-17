@@ -195,7 +195,7 @@ Please refer to the [**TESTING**](TESTING.md) file for more information about th
 # Deployment
 
 ## To deploy the website
-The website was deplyoed to GitHub pages. You can fallow the steps bellow to deploy a webpage:
+The website was deplyoed to GitHub pages. You can fallow the steps below to deploy a webpage:
 
 1. In the GitHub repository, click on the **Settings** tab;
 2. Select the **Pages** option on the left hand side;
@@ -243,12 +243,12 @@ To create a clone of the project from GitHub, folow the steps below:
 ## Media
 - All the photos used came from royalty free stock from [**Pexels**](https://www.pexels.com), [**Pixabay**](https://pixabay.com) and [**Unsplash**](https://unsplash.com);
 - The link for each individual image can be found as a comment in the code;
-- The Akemi logo and visual identity was provided by the company's owner, [**Filipe Braga**](https://www.linkedin.com/in/filipe-braga-a8795b19/).
+- The Akemi logo and visual identity was provided by the company's owner [**Filipe Braga**](https://www.linkedin.com/in/filipe-braga-a8795b19/).
 
 [Back to table of content](#table-of-content)
 
 # Acknowledgements
-This website was created as the first Portfolio project for the Full Stack Software Developer course from [**Code Institute**](https://codeinstitute.net). I would like to thank my mentor, [**Precious Ijege**](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance and support throught this project, the Code Institute team.
+This website was created as the first portfolio project for the Full Stack Software Developer course from [**Code Institute**](https://codeinstitute.net). I would like to thank my mentor, [**Precious Ijege**](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance and support throught this project and the Code Institute team.
 
 [**Andre Braga**](https://www.linkedin.com/in/andrestrevisan/) 2022
 
