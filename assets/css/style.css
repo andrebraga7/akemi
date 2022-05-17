@@ -11,6 +11,8 @@ body {
     font-weight: 300;
     text-align: center;
     color: #1a1a1a;
+    max-width: 1440px;
+    margin: auto;
 }
 
 h2 {
@@ -99,27 +101,25 @@ header {
 
 /* book-a-call button */
 
-.book-a-call {
-    width: 170px;
+.book-a-call-button {
+    color: #ffffff;
+    font-size: 110%;
+    font-weight: 700;
+    text-decoration: none;
+    width: 150px;
     margin: 20px auto 0;
     padding: 10px;
     box-shadow: 2px 2px #ffffff;
     background-color: #4ab74c;
+    display: inline-block;
 }
 
-.book-a-call a {
-    color: #ffffff;
-    font-size: 140%;
-    font-weight: 800;
-    text-decoration: none;
-}
-
-.book-a-call:hover {
+.book-a-call-button:hover {
     box-shadow: 2px 2px #4ab74c;
     background-color: #011d3b;
 }
 
-.book-a-call:active {
+.book-a-call-button:active {
     color: #4ab74c;
 }
 

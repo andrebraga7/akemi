@@ -44,7 +44,7 @@ You can follow the project along by visiting the [Akemi website here](https://an
 - [**Credits**](#credits)
     - [Content](#content)
     - [Media](#media)
-- **Acknowledgements**
+- [**Acknowledgements**](#acknowledgements)
 
 
 # User Experience (UX)
@@ -180,14 +180,17 @@ The Akemi website is designed and laid out following the common sense website de
 
 # Technologies Used
 
-- HTML5 - provides the structure for the content of the website;
-- CSS3 - styles the content of the page;
-- Gitpod - used to edit the website;
-- GitHub - used to host and deploy the website.
+- [HTML5](https://html.spec.whatwg.org/multipage/) - provides the structure for the content of the website;
+- [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) - styles the content of the page;
+- [Gitpod](https://www.gitpod.io/) - used to edit the website;
+- [GitHub](https://github.com/) - used to host and deploy the website.
 
 [Back to table of content](#table-of-content)
 
 # Testing
+Please refer to the [**TESTING**](TESTING.md) file for more information about the testing of Akemi Renewable Energies.
+
+[Back to table of content](#table-of-content)
 
 # Deployment
 
@@ -239,6 +242,14 @@ To create a clone of the project from GitHub, folow the steps below:
 
 ## Media
 - All the photos used came from royalty free stock from [**Pexels**](https://www.pexels.com), [**Pixabay**](https://pixabay.com) and [**Unsplash**](https://unsplash.com);
-- The link for each individual image can be found as a comment in the code.
+- The link for each individual image can be found as a comment in the code;
+- The Akemi logo and visual identity was provided by the company's owner, [**Filipe Braga**](https://www.linkedin.com/in/filipe-braga-a8795b19/).
+
+[Back to table of content](#table-of-content)
+
+# Acknowledgements
+This website was created as the first Portfolio project for the Full Stack Software Developer course from [**Code Institute**](https://codeinstitute.net). I would like to thank my mentor, [**Precious Ijege**](https://www.linkedin.com/in/precious-ijege-908a00168/) for his guidance and support throught this project, the Code Institute team.
+
+[**Andre Braga**](https://www.linkedin.com/in/andrestrevisan/) 2022
 
 [Back to table of content](#table-of-content)
