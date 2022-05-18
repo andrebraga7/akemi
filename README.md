@@ -163,7 +163,7 @@ The Akemi website is designed and laid out following the common sense website de
 [Back to table of content](#table-of-content)
 
 - ### Form
-    - The form section provides the user with an option to contact the company by providing aditional information. The form has 5 text input fields: First name, Last name, Email, Phone number and the user message. All the fields have placeholder text as a design choice and every field has it's own arial label asigned.
+    - The form section provides the user with an option to contact the company by providing aditional information. The form has 5 text input fields: First name, Last name, Email, Phone number and the user message. All the fields have labels assigned.
     - At the bottom of the form there are the send and reset button. For the purpose of this project, the form does not have an action asigned to it. It only resets the form to give the user some feedback thar the send button has responded to the click.
 
     ![Form](assets/readme-images/form.jpg)
