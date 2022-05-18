@@ -423,7 +423,7 @@ footer span {
     border-color: #4ab74c;
 }
 
-input[type="submit"] {
+#form-submit {
     color: #ffffff;
     font-size: 120%;
     font-weight: 700;
@@ -435,12 +435,12 @@ input[type="submit"] {
     display: inline-block;
 }
 
-input[type="submit"]:hover {
+#form-submit:hover {
     background-color: #011d3b;
     box-shadow: #4ab74c 3px 3px;
 }
 
-input[type="reset"] {
+#form-reset {
     color: #1a1a1a;
     font-size: 120%;
     font-weight: 700;
@@ -452,7 +452,7 @@ input[type="reset"] {
     display: inline-block;
 }
 
-input[type="reset"]:hover {
+#form-reset:hover {
     background-color: #dedede;
 }
 
@@ -651,12 +651,12 @@ input[type="reset"]:hover {
         width: 95%;
     }
 
-    input[type="submit"] {
+    #form-submit {
         width: 150px;
         margin-right: 10px;
     }
 
-    input[type="reset"] {
+    #form-reset {
         width: 150px;
         margin-right: 0;
     }

@@ -45,23 +45,24 @@
         <form action="contact.html#form-section" method="post" class="form">
             <h3>Send us a message to find out more</h3>
 
-            <label for="fname" aria-label="first name"></label>
-            <input id="fname" type="text" name="first_name" placeholder="First name" class="text-input" required>
+            <label for="fname">First name:</label>
+            <input id="fname" type="text" name="first_name" class="text-input" required>
 
-            <label for="lname" aria-label="last name"></label>
-            <input id="lname" type="text" name="last_name" placeholder="Last name" class="text-input" required>
+            <label for="lname">Last name:</label>
+            <input id="lname" type="text" name="last_name" class="text-input" required>
 
-            <label for="email" aria-label="email address"></label>
-            <input id="email" type="email" name="email_address" placeholder="Email address" class="text-input" required>
+            <label for="email">Email address:</label>
+            <input id="email" type="email" name="email_address" class="text-input" required>
 
-            <label for="phone" aria-label="telephone number"></label>
-            <input id="phone" type="tel" name="phone_number" placeholder="Phone number +44 0000 123456" class="text-input">
+            <label for="phone">Phone number:</label>
+            <input id="phone" type="tel" name="phone_number" class="text-input">
 
-            <label for="mfield" aria-label="message"></label>
-            <textarea name="message" id="mfield" cols="30" rows="10" placeholder="Your message" class="text-input" required></textarea>
+            <label for="mfield">Your message:</label>
+            <textarea name="message" id="mfield" cols="30" rows="10" class="text-input" required></textarea>
 
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
+            <!-- the type of input is set to reset only for project purpose, it should be changed to submit when a valid action has been assigned to it-->
+            <input id="form-submit" type="reset" value="Send">
+            <input id="form-reset" type="reset" value="Reset">
         </form>
     </section>
 
