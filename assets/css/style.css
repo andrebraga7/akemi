@@ -114,17 +114,12 @@ header {
     width: 150px;
     margin: 20px auto 0;
     padding: 10px;
-    box-shadow: 2px 2px #ffffff;
-    background-color: #4ab74c;
+    box-shadow: 2px 2px #4ab74c;
+    background-color: #011d3b;
     display: inline-block;
 }
 
 .book-a-call-button:hover {
-    box-shadow: 2px 2px #4ab74c;
-    background-color: #011d3b;
-}
-
-.book-a-call-button:active {
     color: #4ab74c;
 }
 
