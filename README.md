@@ -25,7 +25,7 @@ You can follow the project along by visiting the [Akemi website here](https://an
         - [*Hero image*](#hero-image)
         - [*Our solutions*](#our-solutions)
         - [*How we can help*](#how-we-can-help)
-        - [*Call to action*](#call-to-action)
+        - [*Testimonials*](#testimonials)
         - [*Footer*](#footer)
     - [About](#about)
         - [*About cover image*](#about-cover-image)
@@ -111,10 +111,10 @@ The Akemi website is designed and laid out following the common sense website de
 
 [Back to table of content](#table-of-content)
 
-- ### Call to action
-    Located on top of the footer, this section is the second call to action on the home page. Like the first one, it invites the user to fill in his contact information on the contact form the button links to in exchange of a free cal by one of the companys specialists.
+- ### Testimonials
+    This section brings three testimonies of three different customers, showing the different possibilities and applications of Akemis renewable energy solutions.
 
-    ![Call to action](assets/readme-images/call-to-action.jpg)
+    ![Call to action](assets/readme-images/testimonials.jpg)
 
 [Back to table of content](#table-of-content)
 
@@ -165,7 +165,6 @@ The Akemi website is designed and laid out following the common sense website de
 - ### Form
     - The form section provides the user with an option to contact the company by providing aditional information. The form has 5 text input fields: First name, Last name, Email, Phone number and the user message. All the fields have labels assigned.
     - At the bottom of the form there are the send and reset button. For the purpose of this project, the form does not have an action asigned to it. It only resets the form to give the user some feedback thar the send button has responded to the click.
-
     ![Form](assets/readme-images/form.jpg)
 
 [Back to table of content](#table-of-content)

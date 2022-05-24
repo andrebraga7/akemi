@@ -18,6 +18,10 @@ Below are the HTML validator results for each of the pages:
 
     ![HTML validator results](assets/readme-images/html-validator.jpg)
 
+- ### Contact form confirmation
+
+    ![HTML validator results](assets/readme-images/html-validator.jpg)
+
 Below are the CSS validator results:
 
 ![CSS validator results](assets/readme-images/css-validator.jpg)
