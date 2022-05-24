@@ -112,7 +112,7 @@ The Akemi website is designed and laid out following the common sense website de
 [Back to table of content](#table-of-content)
 
 - ### Testimonials
-    This section brings three testimonies of three different customers, showing the different possibilities and applications of Akemis renewable energy solutions.
+    This section brings three testimonies showing the different possibilities and applications of Akemis renewable energy solutions and the feedback the customers gave, providing value for the user
 
     ![Call to action](assets/readme-images/testimonials.jpg)
 
