@@ -34,6 +34,7 @@ You can follow the project along by visiting the [Akemi website here](https://an
     - [Contact](#contact)
         - [*Contact cover image*](#contact-cover-image)
         - [*Form*](#form)
+        - [*Form destination*](#form-destination)
     - [Future features](#future-features)
 - [**Technologies Used**](#technologies-used)
 - [**Testing**](#testing)
@@ -164,8 +165,16 @@ The Akemi website is designed and laid out following the common sense website de
 
 - ### Form
     - The form section provides the user with an option to contact the company by providing aditional information. The form has 5 text input fields: First name, Last name, Email, Phone number and the user message. All the fields have labels assigned.
-    - At the bottom of the form there are the send and reset button. For the purpose of this project, the form does not have an action asigned to it. It only resets the form to give the user some feedback thar the send button has responded to the click.
+    - At the bottom of the form there are the send and reset button.
+
     ![Form](assets/readme-images/form.jpg)
+
+[Back to table of content](#table-of-content)
+
+- ### Form destination
+    - For the purpose of this project, the form does not post the data anywhere, it simply loads the form destination page. This would be changed on a live version of the website.
+
+    ![Form destination](assets/readme-images/form-destination.jpg)
 
 [Back to table of content](#table-of-content)
 

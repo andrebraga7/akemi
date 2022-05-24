@@ -18,7 +18,7 @@ Below are the HTML validator results for each of the pages:
 
     ![HTML validator results](assets/readme-images/html-validator.jpg)
 
-- ### Contact form confirmation
+- ### Contact form destination
 
     ![HTML validator results](assets/readme-images/html-validator.jpg)
 
@@ -50,6 +50,10 @@ The website was tested on a wide range of browsers and didn't present any visual
         ![Bugs found](assets/readme-images/bugs.jpg)
         
         Both errors were related to the same problem. This was easily fixed by removing the \<button> element, and styling the \<a> element as a button.
+
+    - A position change was done on the cover image of the about page in order to improve the visibility of some elements that were being clipped on smaller screens.
+
+    - During the lighthouse test, an accessibility recomendation was found: to change the background colour of the book a call button on the cover text of the home page to improve contrast. After the colour change, the accessibility result was improved.
 
 - ## Unresolved
     - The data from the form on the contact page doesn't push anywhere. This is due to the limitations of this portfolio project. However it can be easily fixed for a true live version of the website.
