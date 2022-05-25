@@ -14,6 +14,7 @@ You can follow the project along by visiting the [Akemi website here](https://an
 # Table of content
 
 - [**User Experience UX**](#user-experience-ux)
+    - [User stories](#user-stories)
     - [Wireframes](#wireframes)
     - [Site structure](#site-structure)
     - [Design choices](#design-choices)
@@ -49,6 +50,18 @@ You can follow the project along by visiting the [Akemi website here](https://an
 
 
 # User Experience (UX)
+
+## User stories
+
+- As a user I want to understand the purpose of the site straight away;
+- As a user I want to be able to navigate through the whole site easily;
+- As a user I want to know how other customers experiences has been working with Akemi;
+- As a user I want to connect with Akemi on social media;
+- As a user I want to know more about Akemi;
+- As a user I want to see portfolio projects from Akemi;
+- As a user I want to easily be able to contact Akemi for more information.
+
+[Back to table of content](#table-of-content)
 
 ## Wireframes
 

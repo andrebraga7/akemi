@@ -42,6 +42,31 @@ Note: The website has a maximum width of 1440px, this ristrics the content of th
 
 The website was tested on a wide range of browsers and didn't present any visual issues for the user, **Google Chrome**, **Microsoft Edge**, **Safari** and **Mozilla Firefox**. The apearance, functionality and responsiveness was consistent throughout the browsers and device sizes.
 
+# Testing user stories
+
+- As a user I want to understand the purpose of the site straight away;
+    - On the home page, the hero image with a row of solar panels in a field with the header **Renewable energy** and the text bellow inviting the user to get in touch to learn how the company can help achieve the user's energy goals, should allow the user to interprete the main purpose of the website.
+
+- As a user I want to be able to navigate through the whole site easily;
+    - There is a **navigation menu** on the top of every site;
+    - On every page there is a footer with a second **menu** that links to all the pages.
+
+- As a user I want to know how other customers experiences has been working with Akemi;
+    - At the bottom of the home page there is a **testimonials** section with feedback from other customers experiences.
+
+- As a user I want to connect with Akemi on social media;
+    - In the footer in every page there a links to all of Akemis **social media pages**.
+
+- As a user I want to know more about Akemi;
+    - On the about page, there is a section with an **introduction about** Akemi.
+
+- As a user I want to see portfolio projects from Akemi;
+    - At the bottom of the about page, there is a section with some of Akemi's **completed projects**.
+
+- As a user I want to easily be able to contact Akemi for more information.
+    - On the contact page there is a form which allows to user to fill in his contact information and send Akemi a message;
+    - On the footer in every page there is also **contact information** for the company, such as: telephone, email and address.
+
 # Known bugs
 
 - ## Resolved
