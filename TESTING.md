@@ -48,14 +48,14 @@ The website was tested on a wide range of browsers and didn't present any visual
     - On the home page, the hero image with a row of solar panels in a field with the header **Renewable energy** and the text bellow inviting the user to get in touch to learn how the company can help achieve the user's energy goals, should allow the user to interprete the main purpose of the website.
 
 - As a user I want to be able to navigate through the whole site easily;
-    - There is a **navigation menu** on the top of every site;
-    - On every page there is a footer with a second **menu** that links to all the pages.
+    - There is a **navigation menu** on the top of every page with links to all the pages;
+    - On every page there is a footer with a second **menu** with links to all the pages.
 
 - As a user I want to know how other customers experiences has been working with Akemi;
-    - At the bottom of the home page there is a **testimonials** section with feedback from other customers experiences.
+    - At the bottom of the home page there is a **Testimonials** section with feedback from other customers experiences.
 
 - As a user I want to connect with Akemi on social media;
-    - In the footer in every page there a links to all of Akemis **social media pages**.
+    - On the footer in every page there are links to all of Akemis **social media pages**.
 
 - As a user I want to know more about Akemi;
     - On the about page, there is a section with an **introduction about** Akemi.
@@ -64,7 +64,7 @@ The website was tested on a wide range of browsers and didn't present any visual
     - At the bottom of the about page, there is a section with some of Akemi's **completed projects**.
 
 - As a user I want to easily be able to contact Akemi for more information.
-    - On the contact page there is a form which allows to user to fill in his contact information and send Akemi a message;
+    - On the contact page there is a form which allows the user to fill in his contact information and send Akemi a message;
     - On the footer in every page there is also **contact information** for the company, such as: telephone, email and address.
 
 # Known bugs
@@ -81,7 +81,7 @@ The website was tested on a wide range of browsers and didn't present any visual
     - During the lighthouse test, an accessibility recomendation was found: to change the background colour of the book a call button on the cover text of the home page to improve contrast. After the colour change, the accessibility result was improved.
 
 - ## Unresolved
-    - The data from the form on the contact page doesn't push anywhere. This is due to the limitations of this portfolio project. However it can be easily fixed for a true live version of the website.
+    - The data from the form on the contact page doesn't push anywhere. This is due to the limitations of this portfolio project. However it can easily be fixed for a live version of the website.
 
 # Aditional testing
 
